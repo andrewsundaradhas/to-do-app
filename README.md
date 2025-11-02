@@ -1,4 +1,4 @@
-# 🎯 Premium Todo Application
+#  Premium Todo Application
 
 A modern, full-stack todo application with beautiful 3D WebGL effects, complete backend API, and comprehensive automated testing suite.
 
@@ -9,30 +9,30 @@ A modern, full-stack todo application with beautiful 3D WebGL effects, complete 
 ![Pytest](https://img.shields.io/badge/Pytest-8.3.2-yellow)
 ![Selenium](https://img.shields.io/badge/Selenium-4.24.0-green)
 
-## ✨ Features
+##  Features
 
 ### Frontend
-- 🎨 **3D Circular Gallery** with WebGL effects (Three.js, OGL)
-- 🌓 **Dark/Light Mode** toggle
-- 📝 **Task Management** with priorities, tags, and due dates
-- 🔍 **Filtering** by All/Active/Completed
-- 🎯 **Drag & Drop** reordering
-- ⚡ **Real-time Updates** with localStorage persistence
+-  **3D Circular Gallery** with WebGL effects (Three.js, OGL)
+-  **Dark/Light Mode** toggle
+-  **Task Management** with priorities, tags, and due dates
+-  **Filtering** by All/Active/Completed
+-  **Drag & Drop** reordering
+- **Real-time Updates** with localStorage persistence
 
 ### Backend API
-- 🚀 **RESTful Express Server** with SQLite database
-- 📊 **Full CRUD Operations** for todos
-- ✅ **Input Validation** and error handling
-- 🔒 **CORS Enabled** for frontend communication
-- 💾 **Persistent Storage** with SQLite3
+-  **RESTful Express Server** with SQLite database
+-  **Full CRUD Operations** for todos
+-  **Input Validation** and error handling
+-  **CORS Enabled** for frontend communication
+-  **Persistent Storage** with SQLite3
 
 ### Testing Suite
-- 🧪 **Automated E2E Tests** with Selenium WebDriver
-- ✅ **5 Test Cases** covering core functionality
-- 📈 **100% Coverage** of user flows
-- 🎯 **Real Browser Testing** with Chrome automation
+-  **Automated E2E Tests** with Selenium WebDriver
+-  **5 Test Cases** covering core functionality
+-  **100% Coverage** of user flows
+-  **Real Browser Testing** with Chrome automation
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -43,7 +43,7 @@ A modern, full-stack todo application with beautiful 3D WebGL effects, complete 
 | **Database** | SQLite3 |
 | **Testing** | Python, Pytest, Selenium WebDriver |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 20.11.0+
@@ -109,7 +109,7 @@ For a complete demo (starts everything):
 FACULTY_DEMO.bat  # Windows
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 premium-todo-app/
@@ -132,7 +132,7 @@ premium-todo-app/
 └── README.md               # This file
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -149,7 +149,7 @@ curl -X POST http://localhost:5001/api/todos \
   -d '{"title":"New Task","priority":"high"}'
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Test Cases
 
@@ -172,14 +172,14 @@ pytest test_todo_app.py::TestTodoApp::test_add_task -v
 pytest test_todo_app.py -vv -s
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - **[Backend API Documentation](BACKEND_API_DOCS.md)** - Complete API reference
 - **[Testing Guide](TESTING_GUIDE.md)** - Testing documentation
 - **[Teacher Demo Guide](TEACHER_DEMO_GUIDE.md)** - Demo instructions
 - **[Project Overview](PROJECT_README.md)** - Detailed project info
 
-## 🎨 Features Showcase
+##  Features Showcase
 
 ### 3D Circular Gallery
 - WebGL-powered 3D carousel
@@ -200,7 +200,7 @@ pytest test_todo_app.py -vv -s
 - **Circular Gallery** - OGL 3D rendering
 - Smooth transitions and animations
 
-## 🔧 Development
+##  Development
 
 ### Frontend Development
 ```bash
@@ -221,7 +221,7 @@ cd tests
 pytest test_todo_app.py -v  # Run tests
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Port Already in Use
 ```bash
@@ -243,21 +243,3 @@ node server.js
 - Check Chrome browser is installed
 - Verify Python dependencies are installed
 
-## 📝 License
-
-MIT License - Feel free to use for educational purposes
-
-## 👤 Author
-
-Created as a demonstration of full-stack development with automated testing.
-
-## 🙏 Acknowledgments
-
-- Next.js team for the amazing framework
-- shadcn/ui for beautiful components
-- Selenium and Pytest communities
-- All open-source contributors
-
----
-
-**⭐ Star this repo if you found it helpful!**
